@@ -10,7 +10,7 @@ if (keyboard_check_pressed(ord("Z")) || keyboard_check_pressed(vk_enter)) && !in
 	obj_Overworld_Frisk.Frozen = true;
 	if (_Host == obj_Overworld_FriskStatue.id) {
 		obj_TextElement.Talker = "Normal";
-		TextToDraw = "* I told you, Here is Baby mode.";
+		TextToDraw = "* I told you, Here is 'Easy' mode.";
 		TextQueue[0] = "* Can you not understand that?";
 	}
 	if (_Host == obj_Overworld_FriskStatue2.id) {

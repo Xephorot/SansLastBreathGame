@@ -7,7 +7,7 @@ function GetEnemyStatus() {
 		return choices[choose(0, 1)];
 	}
 	if (global.EnemyGroup == 1) {
-		choices[0] = "* Navigate with the direcctional&  keys you can do your actions&  with 'Z' and 'X' to go back"
+		choices[0] = "* Navigate with the direcctional&  keys, you can do your actions&  with 'Z', and 'X' to go back."
 		return choices[choose(0)];
 	}if (global.EnemyGroup == 3) {
 		choices[0] = "* Is going to be a bad time."

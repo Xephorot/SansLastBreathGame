@@ -7,7 +7,7 @@ if (menu == 0) {
 	draw_set_color(c_white);
 	draw_text(320, 200, "UNDERTALE REMAKE");
 	draw_set_font(font_battle_dialogue);
-	draw_text(320, 260, "By SERGIO");
+	draw_text(320, 260, "By SERGIO and His Team");
 	draw_set_font(font_battle_dialogue_overworld);
 	draw_text(320, 310, "PRESS Z TO START\nPRESS X TO ERASE SAVE DATA");
 	draw_set_halign(ha);

@@ -72,9 +72,16 @@ if (MyHP > 0) {
 		MySpeechBubble.Talker = "SansA";
 	}
 	if (Turn == 10){
+		MySpeechBubble.TextToSend = "...";
+		MySpeechBubble.TextToStore[0] = "I told you that i have&a lot more of attacks&in my pockets?";
+		MySpeechBubble.TextToStore[1] = "I told you that will&get harder on you.";
+		MySpeechBubble.TextToStore[2] = "Now DIE.&Brother Killer.";
+		MySpeechBubble.Talker = "SansA";
+	}
+	if (Turn == 11){
 		if global.BabyMode{
 			MySpeechBubble.TextToSend = "Poor&Baby.";
-			MySpeechBubble.TextToStore[0] = "You are gonna die";
+			MySpeechBubble.TextToStore[0] = "You are&going die";
 			MySpeechBubble.Talker = "Gaster";
 		}
 		else{
@@ -85,13 +92,6 @@ if (MyHP > 0) {
 			MySpeechBubble.TextToStore[3] = "Yeah, a bunch of&blasters is my&special attack.";
 			MySpeechBubble.Talker = "SansA";
 		}
-	}
-	if (Turn == 11){
-		MySpeechBubble.TextToSend = "...";
-		MySpeechBubble.TextToStore[0] = "I told you that i have&a lot more of attacks&in my pockets?";
-		MySpeechBubble.TextToStore[1] = "I told you that will&get harder on you.";
-		MySpeechBubble.TextToStore[2] = "Now DIE.&Brother Killer.";
-		MySpeechBubble.Talker = "SansA";
 	}
 	if (Turn > 11) {
 		MySpeechBubble.TextToSend = "...";
