@@ -11,10 +11,10 @@ if (MyHP > 0) {
 	
 	MySpeechBubble = instance_create_depth(x + 40, y - 130, -10000, obj_SpeechBubble);
 	if (Turn == 1) {
-		MySpeechBubble.TextToSend = "Huh?";
-		MySpeechBubble.TextToStore[0] = "What just happen?";
-		MySpeechBubble.TextToStore[1] = "Well, looks like&i got another chance&to stop you.";
-		MySpeechBubble.Talker = "SansA";
+		MySpeechBubble.TextToSend = "Attempt&Number&123";
+		MySpeechBubble.TextToStore[0] = "Starting Game";
+		MySpeechBubble.TextToStore[1] = "Embrace yourself.";
+		MySpeechBubble.Talker = "Gaster";
 	}
 	if (Turn == 2) {
 		MySpeechBubble.TextToSend = "hehehehehe";

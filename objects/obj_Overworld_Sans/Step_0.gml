@@ -3,9 +3,9 @@ if IBox == noone {
 	IBox = instance_create_depth(x, y, depth + 1, obj_Interaction);
 	//Esto es para confirmar si despues del dialogo aparecera un enemigo o no
 	obj_Interaction.WithEnemy = true;
-	IBox.TextToDraw = "*LOLs?";
-	IBox.TextQueue[0] = "*LOLs?.";
-	IBox.TextQueue[1] = "*LOLs?.";
+	IBox.TextToDraw = "*Are you ready?";
+	IBox.TextQueue[0] = "*No?.";
+	IBox.TextQueue[1] = "*Well too bad?.";
 }
 else {
 	IBox.x = x;
